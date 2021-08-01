@@ -16,6 +16,7 @@ body{
 
 .main-container{
     
+    
     margin:60px 30px 250px 30px;
     min-width: 320px;
     
@@ -28,6 +29,7 @@ body{
     background-color: white;
     font-family: var(--font);
     border-radius:  5px 5px 0 0;
+    box-shadow: 1px 1px 10px var(--grayihblue);
 }
 
 .community-header{
@@ -57,6 +59,7 @@ body{
     border: var(--Cyan) 1px solid;
     background-color: var(--Cyan);
     font-family: var(--font);
+    
 }
 
 .subscription-header{
@@ -103,6 +106,7 @@ body{
     border: 1px solid #5ac3c4;
     padding-bottom: 20px;
     border-radius: 0 0 5px 5px;
+    
 }
 
 .contact-header{
@@ -125,9 +129,10 @@ body{
    .main-container{
        display: grid;
        grid-template-columns: 1fr 1fr 1fr;
+       margin: 150px 20px  400px auto;
        max-width: 1200px;
        min-width: 910px;
-       margin: 120px 0px 0px 400px;
+    
    }
 
    .container-1{
